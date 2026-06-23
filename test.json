@@ -1,0 +1,136 @@
+[
+  {
+    "jsonrpc": "2.0",
+    "method": "initialize",
+    "id": 1,
+    "params": {
+      "protocolVersion": "2025-11-25",
+      "clientInfo": { "name": "openai-mcp", "version": "1.0.0" },
+      "capabilities": {
+        "experimental": { "openai\/visibility": { "enabled": true } },
+        "extensions": {
+          "io.modelcontextprotocol\/ui": {
+            "mimeTypes": ["text\/html;profile=mcp-app"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "jsonrpc": "2.0",
+    "method": "initialize",
+    "id": 1,
+    "params": {
+      "protocolVersion": "2025-11-25",
+      "clientInfo": { "name": "openai-mcp", "version": "1.0.0" },
+      "capabilities": {
+        "experimental": { "openai\/visibility": { "enabled": true } },
+        "extensions": {
+          "io.modelcontextprotocol\/ui": {
+            "mimeTypes": ["text\/html;profile=mcp-app"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "method": "initialize",
+    "params": {
+      "protocolVersion": "2025-11-25",
+      "capabilities": {
+        "experimental": { "openai\/visibility": { "enabled": true } },
+        "extensions": {
+          "io.modelcontextprotocol\/ui": {
+            "mimeTypes": ["text\/html;profile=mcp-app"]
+          }
+        }
+      },
+      "clientInfo": { "name": "openai-mcp", "version": "1.0.0" }
+    },
+    "jsonrpc": "2.0",
+    "id": 0
+  },
+  {
+    "jsonrpc": "2.0",
+    "method": "initialize",
+    "id": 1,
+    "params": {
+      "protocolVersion": "2025-11-25",
+      "clientInfo": { "name": "openai-mcp", "version": "1.0.0" },
+      "capabilities": {
+        "experimental": { "openai\/visibility": { "enabled": true } },
+        "extensions": {
+          "io.modelcontextprotocol\/ui": {
+            "mimeTypes": ["text\/html;profile=mcp-app"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "method": "tools\/call",
+    "params": {
+      "_meta": {
+        "openai\/userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/149.0.0.0 Safari\/537.36",
+        "openai\/locale": "en-US",
+        "openai\/userLocation": {
+          "city": "Dhaka",
+          "region": "Dhaka Division",
+          "country": "BD",
+          "timezone": "Asia\/Dhaka",
+          "latitude": "23.7104",
+          "longitude": "90.40744"
+        },
+        "timezone": "Asia\/Dhaka",
+        "openai\/subject": "v1\/Db4iPVrMi9uitHrcmaypNYZAgvEIIUSY7ymvOO3MeKIQNsM5s5O0Pu",
+        "openai\/session": "v1\/4qCUnwQdHDEnh7PVvjONQcxHov75iutIujCa5qwlbK36jj8KPqS8Oin5oEJHhGuybYcOI8apr8Yc",
+        "openai\/organization": "v1\/8bBZEkVBMzsRsUbaRhMJh4DOhqhwxJrew0oGqLj5BlbrOd7QP8oTvtXwyCTtO0B7E",
+        "io.modelcontextprotocol\/clientCapabilities": {
+          "experimental": { "openai\/visibility": { "enabled": true } },
+          "extensions": {
+            "io.modelcontextprotocol\/ui": {
+              "mimeTypes": ["text\/html;profile=mcp-app"]
+            }
+          }
+        }
+      },
+      "name": "hello_world",
+      "arguments": []
+    },
+    "jsonrpc": "2.0",
+    "id": 0
+  },
+  {
+    "method": "tools\/call",
+    "params": {
+      "_meta": {
+        "openai\/userAgent": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/149.0.0.0 Safari\/537.36",
+        "openai\/locale": "en-US",
+        "openai\/userLocation": {
+          "city": "Dhaka",
+          "region": "Dhaka Division",
+          "country": "BD",
+          "timezone": "Asia\/Dhaka",
+          "latitude": "23.7104",
+          "longitude": "90.40744"
+        },
+        "timezone": "Asia\/Dhaka",
+        "openai\/subject": "v1\/Db4iPVrMi9uitHrcmaypNYZAgvEIIUSY7ymvOO3MeKIQNsM5s5O0Pu",
+        "openai\/session": "v1\/4qCUnwQdHDEnh7PVvjONQcxHov75iutIujCa5qwlbK36jj8KPqS8Oin5oEJHhGuybYcOI8apr8Yc",
+        "openai\/organization": "v1\/8bBZEkVBMzsRsUbaRhMJh4DOhqhwxJrew0oGqLj5BlbrOd7QP8oTvtXwyCTtO0B7E",
+        "io.modelcontextprotocol\/clientCapabilities": {
+          "experimental": { "openai\/visibility": { "enabled": true } },
+          "extensions": {
+            "io.modelcontextprotocol\/ui": {
+              "mimeTypes": ["text\/html;profile=mcp-app"]
+            }
+          }
+        }
+      },
+      "name": "add_numbers",
+      "arguments": { "a": 3, "b": 4 }
+    },
+    "jsonrpc": "2.0",
+    "id": 0
+  }
+]
